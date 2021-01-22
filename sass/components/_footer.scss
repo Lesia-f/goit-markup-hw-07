@@ -22,7 +22,7 @@ margin: 0px;
 
 
 .logo-footer {
-color: var(--accent-color-2);
+color: $accent-color-2;
 display: inline-block;
 font-family: 'Raleway', sans-serif;
 font-size: 26px; 
@@ -38,7 +38,7 @@ margin-bottom: 9px;
 margin-top: 9px;
 }
 .map {
-color: var(--accent-color-2);
+color: $accent-color-2;
 margin-top: 20px;
 display: inline-block;
 font-size: 14px;
@@ -78,7 +78,7 @@ justify-content: space-between;
 margin-left: 93px;
 }
 .invoke {
-color: var(--accent-color-2);
+color:$accent-color-2;
 text-transform: uppercase;
 font-family: Roboto;
 font-style: normal;
@@ -103,7 +103,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
-background:var(--background-color);
+background:$background-color;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;

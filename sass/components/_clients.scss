@@ -27,7 +27,7 @@
 }
 
 .border-client:hover {
-  color: #2196f3;
+  color: $accent-color;
 }
 
 .our-client {
@@ -46,8 +46,8 @@
 .our-client:hover svg,
 .our-client:focus,
 .our-client:focus svg {
-  border-color: var(--accent-color3);
-  fill: #2196f3;
+  border-color: $accent-color3;
+  fill: $accent-color;
 }
 
 .our-client:last-child {
@@ -114,5 +114,5 @@
 .company4:focus,
 .brand:focus,
 .company6:focus {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
