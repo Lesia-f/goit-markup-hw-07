@@ -6,7 +6,7 @@
 }
 
 .social-title {
-color: var(--accent-color-2);
+color: $accent-color-2;
 text-align: center;
 text-transform: uppercase;
 font-family: Roboto;
@@ -69,7 +69,6 @@ width: 1200px;
 
 .social-footer {
 display:inline-block;
-
 justify-content: space-between;
  width: 206px; 
  

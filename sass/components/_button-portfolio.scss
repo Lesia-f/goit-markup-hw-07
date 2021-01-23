@@ -27,9 +27,9 @@
     line-height: 1.63;
     letter-spacing: 0.03em;
     text-align: center;
-    transition:  background-color 250ms $time-function,
-    color 250ms $time-function, 
-    box-shadow 250ms $time-function; 
+    transition:  background-color $time-animation $time-function,
+    color $time-animation $time-function, 
+    box-shadow $time-animation $time-function; 
         }
 
         

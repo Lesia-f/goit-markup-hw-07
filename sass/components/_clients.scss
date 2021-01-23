@@ -24,12 +24,10 @@
   display: inline-block;
   border-color: currentColor;
   transition: color $time-animation  $time-function;
-}
 
-.border-client:hover {
-  color: $accent-color;
+  &:hover {
+  color: $accent-color;}
 }
-
 .our-client {
   width: 170px;
   height: 90px;
@@ -40,19 +38,19 @@
   margin-right: 15px;
   transition: border-color $time-animation  $time-function,
     fill $time-animation  $time-function;
-}
 
-.our-client:hover,
-.our-client:hover svg,
-.our-client:focus,
-.our-client:focus svg {
-  border-color: $accent-color;
-  fill: $accent-color;
-}
 
-.our-client:last-child {
-  margin-right: 0px;
-}
+    &:hover,
+    &:hover svg,
+    &:focus,
+    &:focus svg {
+      border-color: $accent-color;
+      fill: $accent-color;
+    }
+
+    &:last-child {
+      margin-right: 0px;}
+    }
 
 .client-position {
   background-position: center;
