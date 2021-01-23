@@ -1,0 +1,35 @@
+.button-portfolio:not(:last-child) {
+    margin-right: 8px;}
+
+.portfolio-nav {
+    font-family: inherit;
+    background: $accent-color;
+    color: $accent-color-2;
+    padding: 10px 32px;
+    border-radius: 4px;  
+    display: inline-block;
+    min-width: 200px;  
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.86;
+    letter-spacing: 0.06em;
+    border: 1px solid transparent;
+    color: $title-text-color;
+    background: $background-color-2;
+    font-family: inherit;
+    padding: 6px 22px;
+    border-radius: 4px;  
+    min-width: 73px;  
+    display: inline-block;    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    text-align: center;
+    transition:  background-color 250ms $time-function,
+    color 250ms $time-function, 
+    box-shadow 250ms $time-function; 
+        }
+
+        
