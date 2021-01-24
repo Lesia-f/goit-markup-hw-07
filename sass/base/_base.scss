@@ -3,13 +3,15 @@
 *::after {
   box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: $title-text-color;
+    color:#212121;
 }
-p {
-    margin: 0;
-}
+
+p { 
+    margin: 0;}
+
 ul {
 list-style-type: none;
 padding: 0;
@@ -39,7 +41,7 @@ h2 {
     text-align: center;}
 
     footer {
-        background:$background-color;
+        background: #2F303A;
         padding-top: 60px;
         padding-bottom: 60px;
          }

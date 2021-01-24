@@ -4,6 +4,7 @@
 
 
 @import "./utils/variables";
+@import "./utils/fonts";
 
 @import "./components/logo";
 @import "./components/header";
@@ -17,9 +18,9 @@
 @import "./components/work";
 @import "./components/our-team";
 @import "./components/clients";
-@import "./components/button-portfolio";
-@import "./components/portfolio";
 
+@import "./components/portfolio";
+@import "./components/button-portfolio";
 @import "./components/modal-window";
 
 @import "./components/footer";
