@@ -1,9 +1,10 @@
+
+.button-portfolio:not(:last-child) {
+    margin-right: 8px;}
+    
 .button-portfolio-nav {
     margin-bottom: 50px;
 }
-.button-portfolio:not(:last-child) {
-    margin-right: 8px;}
-
 .portfolio-nav {
     font-family: inherit;
     border-radius: 4px;  

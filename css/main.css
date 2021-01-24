@@ -1533,6 +1533,10 @@ p.card-text {
   margin-right: 8px;
 }
 
+.button-portfolio-nav {
+  margin-bottom: 50px;
+}
+
 .portfolio-nav {
   font-family: inherit;
   border-radius: 4px;
